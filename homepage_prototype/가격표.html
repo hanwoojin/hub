@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>롤 듀오 더 하이브리드 팀</title>
+		<meta charset="utf-8">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148911701-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-148911701-1');
+		</script>
+		<style>
+			image{
+
+			}
+			a{
+				text-decoration:none;
+				color : black;
+			}
+			body{
+				margin :0;
+				background: rgb(200, 253, 255);
+			}
+			#grid{
+				padding : 10px;
+				background: rgb(109,109,109);
+			}
+			#grid div{
+				color : white;
+				font-size :20px;
+				display : grid;
+				grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+				display : inline;
+				padding : 10px;
+			}
+			#grid div:hover{
+				background : rgb(71,71,71);
+				color : white;
+				text-decoration :none;
+			}
+			.currentpage{
+				color : red;
+			}
+			div{
+				text-align:center;
+			}
+			#currentmenu{
+				font-size:75px;
+			}
+			p{
+				text-align:center;
+				font-size:25px;
+			}
+		</style>
+	</head>
+	<body>
+		<div>
+			<a href ="hub.html"><image src = "img/mainlogo.png"></a>
+		</div>
+		<div id ="grid">
+			<a href = "hub.html">
+				<div class = "currentpage" onMouseover ="this.style.color='red';" onMouseout="this.style.color='white';">메인</div></a>
+			<a href = "가격표.html">
+				<div class = "currentpage" onMouseover ="this.style.color='red';" onMouseout="this.style.color='white';">가격표</div></a>
+			<a href = "소개.html">
+				<div class = "currentpage" onMouseover ="this.style.color='red';" onMouseout="this.style.color='white';">소개</div></a>
+			<a href = "기사진인증.html">
+				<div class = "currentpage" onMouseover ="this.style.color='red';" onMouseout="this.style.color='white';">기사진 인증</div></a>
+			<a href = "이용후기.html">
+				<div class = "currentpage" onMouseover ="this.style.color='red';" onMouseout="this.style.color='white';">이용후기</div></a>
+			<a href = "작업현황.html">
+				<div class = "currentpage" onMouseover ="this.style.color='red';" onMouseout="this.style.color='white';">작업 현황</div></a>
+			<a href = "고객센터.html">
+				<div class = "currentpage" onMouseover ="this.style.color='red';" onMouseout="this.style.color='white';">고객센터</div></a>
+			<a href = "자주묻는질문.html">
+				<div class = "currentpage" onMouseover ="this.style.color='red';" onMouseout="this.style.color='white';">자주묻는 질문</div></a>
+		</div>
+		<div id="currentmenu">가격표</div>
+		<p>(변동될 수 있습니다.)</p>
+		<div>
+			<image src="img/price.png"></image>
+		</div>
+	</body>
+</html>
